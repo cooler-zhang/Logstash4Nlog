@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <UserSecretsId>aspnet-Logstash4Nlog-5886F535-BBD0-4140-9790-A6A4B483E109</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" PrivateAssets="All" />
+    <PackageReference Include="NLog" Version="4.5.10" />
+    <PackageReference Include="NLog.Config" Version="4.5.10" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="1.3.0" />
+    <PackageReference Include="NLog.Redis" Version="1.0.2" />
+    <PackageReference Include="NLog.Targets.ElasticSearch" Version="5.0.0" />
+    <PackageReference Include="NLog.Web" Version="4.7.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.7.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.2" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+  </ItemGroup>
+</Project>
